@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.apexcharts-legend {
+  padding: 0px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+th {
+  box-sizing: border-box;
+}
+
+.MuiAccordionSummary-contentGutters {
+  margin: 0px !important;
+}
+
+/* .MuiOutlinedInput-root {
+  height: 36px !important;
+} */
+
+.Modal_tableFilter__BTF9F {
+  background-color: #f2f4f7;
+}
+
+.apexcharts-legend-text {
+  font-family: 'Inter' !important;
+  font-size: 14px !important;
+}
+
+.apexcharts-text {
+  font-family: 'Inter' !important;
+}

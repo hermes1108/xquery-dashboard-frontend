@@ -1,0 +1,297 @@
+.mt10 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 860px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px !important;
+  gap: 0px !important;
+}
+
+.mb2 {
+  margin-bottom: 2px;
+}
+
+.gap10 {
+  gap: 10px;
+}
+
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #D0D5DD;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+
+  span {
+    background-color: #ecfdf3;
+    border-radius: 16px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #027a48;
+    margin-bottom: 6px;
+    margin-left: 6px;
+  }
+}
+
+.tableContainer {
+  max-width: 860px;
+  min-width: 860px;
+
+  @media (max-width: 768px) {
+    min-width: auto;
+  }
+}
+
+.fixedTable {
+  table-layout: fixed;
+}
+
+.fontWeight400 {
+  font-weight: 400 !important;
+}
+
+.paddingRight {
+  padding: 0px 10px 0px 0px;
+}
+
+.viewProjectInfoBtn {
+  padding: 6px 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 40px !important;
+  margin: 0 auto !important;
+}
+
+.filter {
+  height: fit-content;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.toFilterBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: #f9f5ff;
+  color: #6941c6;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: bold;
+  width: 103px;
+  height: 40px;
+}
+
+.flexStart {
+  align-items: flex-start;
+}
+
+.title {
+  font-weight: 600 !important;
+  margin-bottom: 6px !important;
+}
+
+.sinput {
+  max-width: 400px;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: solid 1px #D0D5DD;
+  padding: 10px 10px 10px 15px;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+
+
+.info {
+  margin-right: 4px !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+}
+
+.column {
+  text-align: left;
+  padding: 12px 30px;
+}
+
+.row {
+  max-height: 66px;
+  padding: 0px;
+  align-items: center;
+  justify-content: space-between !important;
+}
+
+.footer {
+  padding: 10px 30px;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.page {
+  font-size: 14px !important;
+  font-family: 'Inter' !important;
+  font-weight: 500;
+  width: 40px;
+  height: 40px;
+  margin-right: 2px;
+}
+
+.arrow {
+  color: #667085 !important;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.active {
+  color: #7f56d9 !important;
+}
+
+.infoBtn {
+  // display: flex;
+  // align-items: center;
+  // height: 36px;
+  // margin: 0 auto;
+  // padding: 0;
+  // width: fit-content;
+  // border-radius: 6px;
+  // background: #7f56d9;
+  //box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+
+.infoBtnSpace {
+  margin-right: 5px;
+}
+
+.filtSelect {
+  box-sizing: border-box;
+  width: 50px;
+  height: 40px;
+  color: transparent;
+}
+
+.MuiSvgIcon-root.MuiSelect-iconOutlined {
+  display: none !important;
+}
+
+.tag1 {
+  display: flex;
+  gap: 4px;
+}
+
+.tag2 {
+  display: none;
+}
+
+.closeIcon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .top {
+    position: sticky;
+    right: 30px;
+  }
+
+  .filtSelect {
+    min-width: 100% !important;
+  }
+
+  .flexCenter {
+    justify-content: center;
+  }
+
+  .flexCenter {
+    width: '100%'
+  }
+
+  .sinput {
+    margin-right: 15px;
+  }
+
+  .dtable {
+    overflow: auto;
+  }
+
+  .row {
+    position: relative;
+  }
+
+  .info {
+    display: none;
+  }
+
+  .footer {
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+
+  .pagination {
+    display: none;
+  }
+
+  .toFilterBtn {
+    font-size: 14px !important;
+    border-radius: 16px !important;
+    padding: 2px 8px 2px 10px !important;
+    width: fit-content !important;
+    height: 24px !important;
+    gap: 2px;
+  }
+
+  .tag1 {
+    display: none;
+  }
+
+  .tag2 {
+    display: flex;
+    gap: 6px;
+    margin-right: auto;
+  }
+}
+
+.pagination {
+  display: block;
+}
+
+.apexcharts-canvas .apexchartsw7k6ocrc .apexcharts-theme-light {
+  width: '100% !important';
+}
+
+@media (max-width: 400px) {
+  .row {
+    width: 800px;
+  }
+
+  .column {
+    width: 90px;
+    text-align: left;
+    padding: 12px 20px;
+  }
+}
